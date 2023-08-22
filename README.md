@@ -31,10 +31,12 @@ source myenv/bin/activate
 
 # Backend Server
 To run the backend server, open a terminal for the backend and run:
+
 py manage.py runserver
  
 # Frontend Server
 To run the frontend server, open a terminal for the frontend and run:
+
 npm start
 
 The application will run locally at http://localhost:3000.
