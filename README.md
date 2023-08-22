@@ -30,7 +30,7 @@ source myenv/bin/activate
 # Backend Server
 To run the backend server, open a terminal for the backend and run:
 py manage.py runserver
-
+ 
 # Frontend Server
 To run the frontend server, open a terminal for the frontend and run:
 npm start
@@ -50,4 +50,9 @@ docker run -p 3000:3000 my-app
 
 This will start the application and make it accessible at http://localhost:3000.
 
+##### admin credentials:
+
+username: roee
+
+password: 123
 
