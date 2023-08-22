@@ -11,33 +11,30 @@ User-friendly Interface: Easily browse and purchase products.
 Secure Transactions: Implementing secure handling of customer information.
 
 
-# 🛠 Local Development Setup
 ## 🔒 Setting Up a Virtual Environment
 It's recommended to create a virtual environment:
 
-## Windows:
-## run in terminal:
+#### Windows(run in terminal):
 python -m venv myenv
 myenv\Scripts\activate
 
 
-## macOS and Linux::
-## run in terminal:
+#### macOS and Linux(run in terminal):
 python3 -m venv myenv
 source myenv/bin/activate
 
 # 📦 Requirements
-### pip install -r requirements.txt
+ pip install -r requirements.txt
 
 # Backend Server
-### To run the backend server, open a terminal for the backend and run:
+To run the backend server, open a terminal for the backend and run:
 py manage.py runserver
 
 # Frontend Server
-### To run the frontend server, open a terminal for the frontend and run:
+To run the frontend server, open a terminal for the frontend and run:
 npm start
 
-## The application will run locally at http://localhost:3000.
+The application will run locally at http://localhost:3000.
 
 
 # 🐳 Docker 
