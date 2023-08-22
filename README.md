@@ -8,6 +8,7 @@ A supermarket web application that offers a seamless buying experience for custo
 
 # 🚀 Features
 User-friendly Interface: Easily browse and purchase products.
+
 Secure Transactions: Implementing secure handling of customer information.
 
 
