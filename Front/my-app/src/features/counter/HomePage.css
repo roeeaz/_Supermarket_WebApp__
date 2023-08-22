@@ -1,0 +1,123 @@
+.home-page {
+    color: #e91e63;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px; 
+    padding-right: 40px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.product-card {
+    width: 230px;
+    margin: 10px; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.original-price {
+    text-decoration: line-through;
+    font-size: 2rem;
+    color: #888;
+}
+
+.discounted-price {
+    font-size: 3rem;
+    color: #e91e63;
+    margin-top: 0.5rem;
+}
+
+.carousel .slide .img1 {
+    max-height: 200px; 
+    width: 600px; 
+    margin: auto; 
+}
+
+.carousel .slide .img2 {
+    max-height: 180px; 
+    width: auto; 
+    margin: auto; 
+    padding-left: 50px;
+    font-size: 0;
+}
+
+.carousel .slide .img3 {
+    max-height: 250px; 
+    width: 300px; 
+    margin: auto; 
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 305px;
+    
+}
+
+
+.carousel .slide .img4 {
+    max-height: 280px; 
+    width: 200px; 
+    margin: auto; 
+    border-radius: 10px;
+    margin-right: 10px;
+
+    
+}
+
+.carousel .slide .img5 {
+    max-height: 280px; 
+    width: 360px; 
+    margin: auto; 
+    border-radius: 10px;
+    margin-right: 10px;
+
+    
+}
+
+.carousel .slide .img6 {
+    max-height: 280px; 
+    width: 380px; 
+    margin: auto; 
+    margin-left: 310px;
+
+    
+}
+
+
+.carousel .slide .img7 {
+    max-height: 260px; 
+    width: 530px; 
+    margin: auto; 
+
+    
+}
+
+.carousel .slide .img8 {
+    max-height: 280px; 
+    width: 280px; 
+    margin: auto;
+
+
+    
+}
+
+
+.carousel {
+    width: 200px; 
+    height: 200px; 
+    margin: auto; 
+    
+}
+
+
+

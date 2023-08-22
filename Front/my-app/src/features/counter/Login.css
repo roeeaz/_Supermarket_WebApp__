@@ -1,0 +1,94 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.8);  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    z-index: 1000;
+    
+  }
+  
+
+  .modal-content {
+    background: linear-gradient(to bottom, #f3f3f3 85%, #f3f3f3 0);
+    margin: auto; 
+    border: 1px solid #888;
+    width: 40%; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content input {
+    margin: 10px 0;
+    padding: 11px;
+    
+  }
+  
+  .modal-content button {
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+
+  .close {
+  position: absolute;
+  left: 365px;
+  top: 6px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+  background-color: #7edfff;
+  height: 45px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 80px;
+  cursor: pointer;
+}
+
+.close:hover {
+  background-color: #9cfcff;
+}
+
+
+.user-btn {
+  color: #0849fe;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+
+.user-btn:hover {
+  background-color: #bbdbff;
+  color: white;
+}
+
+
+.blur-background {
+    filter: blur(5px);
+}
+
+
+
+
+
+  
+  
+  
+  
