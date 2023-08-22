@@ -40,9 +40,10 @@ The application will run locally at http://localhost:3000.
 
 # 🐳 Docker 
 First, build the Docker image for the project by running the following command in the root directory:
+
 docker build -t my-app .
 
-## Running the Docker Container
+#### Running the Docker Container
 After building the image, you can run the container with:
 
 docker run -p 3000:3000 my-app
