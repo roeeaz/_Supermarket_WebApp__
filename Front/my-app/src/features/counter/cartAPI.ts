@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const addToCart = async (productId: number, userToken: string) => {
     const response = await axios.post(
-        'https://roee-supermarket-rol8.onrender.com/cart/',
+        'https://roee-supermarket-04ji.onrender.com/cart/',
         { product_id: productId }, 
         { headers: { 'Authorization': `Bearer ${userToken}` } }
     );
@@ -12,7 +12,7 @@ export const addToCart = async (productId: number, userToken: string) => {
 
 export const fetchUserCart = async (userToken: string) => {
     const response = await axios.get(
-        'https://roee-supermarket-rol8.onrender.com/cart/',
+        'https://roee-supermarket-04ji.onrender.com/cart/',
         { headers: { 'Authorization': `Bearer ${userToken}` } }
     );
     return response.data;
@@ -25,7 +25,7 @@ export const updateQuantityAsync = createAsyncThunk(
     ;
     try {
       const response = await axios.patch(
-        `https://roee-supermarket-rol8.onrender.com/cartitem/${cartItemId}/`,
+        `https://roee-supermarket-04ji.onrender.com/cartitem/${cartItemId}/`,
         { quantity: newQuantity },
         { headers: { 'Authorization': `Bearer ${userToken}` } }
       );
@@ -39,7 +39,7 @@ export const updateQuantityAsync = createAsyncThunk(
 
 
 export const removeItemFromCart = async ({cartItemId, userToken}: {cartItemId: number, userToken: string}) => {
-  const response = await axios.delete(`https://roee-supermarket-rol8.onrender.com/cartitem/${cartItemId}/`, {
+  const response = await axios.delete(`https://roee-supermarket-04ji.onrender.com/cartitem/${cartItemId}/`, {
       headers: {
           Authorization: `Bearer ${userToken}`
       },
@@ -50,7 +50,7 @@ export const removeItemFromCart = async ({cartItemId, userToken}: {cartItemId: n
 
 
 export const clearCart = async (userToken: string) => {
-  const response = await axios.delete('https://roee-supermarket-rol8.onrender.com/cart/clear/', {
+  const response = await axios.delete('https://roee-supermarket-04ji.onrender.com/cart/clear/', {
     headers: {
       Authorization: `Bearer ${userToken}`
     }

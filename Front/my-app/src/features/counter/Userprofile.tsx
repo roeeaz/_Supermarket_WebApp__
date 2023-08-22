@@ -11,7 +11,7 @@ const UserProfile = () => {
 
 
   useEffect(() => {
-    axios.get('https://roee-supermarket-rol8.onrender.com/user_profile/', {
+    axios.get('https://roee-supermarket-04ji.onrender.com/user_profile/', {
       headers: {
         'Authorization': `Bearer ${token}`
       }

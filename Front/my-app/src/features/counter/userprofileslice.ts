@@ -5,7 +5,7 @@ import axios from "axios";
 export const fetchUserProfileAsync = createAsyncThunk(
   'profile/fetchUserProfile',
   async (token: string) => {
-    const response = await axios.get('https://roee-supermarket-rol8.onrender.com/user_profile/', {
+    const response = await axios.get('https://roee-supermarket-04ji.onrender.com/user_profile/', {
       headers: {
         'Authorization': `Bearer ${token}`
       }

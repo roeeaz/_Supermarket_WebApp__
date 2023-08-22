@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
 
     useEffect(() => {
         axios
-            .get('https://roee-supermarket-rol8.onrender.com/category/')
+            .get('https://roee-supermarket-04ji.onrender.com/category/')
             .then((response) => {
                 setCategories(response.data);
             })

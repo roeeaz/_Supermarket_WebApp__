@@ -76,7 +76,7 @@ export const updateDetailsAsync = createAsyncThunk(
         const token: string = sessionStorage.getItem('token') || '';
         axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
         const updatedDetails = { newUsername: newDetails.newUsername, newPassword: newDetails.newPassword };
-        const response = await axios.put("https://roee-supermarket-rol8.onrender.com/update_user/", updatedDetails);
+        const response = await axios.put("https://roee-supermarket-04ji.onrender.com/update_user/", updatedDetails);
         return response.data;
     }
 );

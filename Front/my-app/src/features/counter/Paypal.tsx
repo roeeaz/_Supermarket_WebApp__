@@ -39,7 +39,7 @@ const PaypalButton: React.FC<PaypalButtonProps> = ({ totalAmount }) => {
 
 
   useEffect(() => {
-    axios.get('https://roee-supermarket-rol8.onrender.com/user_profile/')
+    axios.get('https://roee-supermarket-04ji.onrender.com/user_profile/')
       .then(response => {
         setLoyaltyPoints(response.data.loyalty_points);
       })
@@ -141,7 +141,7 @@ const PaypalButton: React.FC<PaypalButtonProps> = ({ totalAmount }) => {
 
 
 
-                    return axios.post('https://roee-supermarket-rol8.onrender.com/capture_order/', {
+                    return axios.post('https://roee-supermarket-04ji.onrender.com/capture_order/', {
                       orderID: data.orderID,
                     }, {
                       headers: {

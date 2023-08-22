@@ -33,7 +33,7 @@ const ProductList: React.FC = () => {
 
 
     useEffect(() => {
-        axios.get(`https://roee-supermarket-rol8.onrender.com/category/${id}/products/`)
+        axios.get(`https://roee-supermarket-04ji.onrender.com/category/${id}/products/`)
             .then(response => {
                 setProducts(response.data);
             })

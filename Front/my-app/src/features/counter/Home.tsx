@@ -42,7 +42,7 @@ function HomePage() {
 
 
   useEffect(() => {
-    axios.get('https://roee-supermarket-rol8.onrender.com/discounted_products/')
+    axios.get('https://roee-supermarket-04ji.onrender.com/discounted_products/')
       .then(response => setProducts(response.data))
       .catch(error => console.error(error));
   }, []);
