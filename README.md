@@ -17,11 +17,13 @@ It's recommended to create a virtual environment:
 
 #### Windows(run in terminal):
 python -m venv myenv
+
 myenv\Scripts\activate
 
 
 #### macOS and Linux(run in terminal):
 python3 -m venv myenv
+
 source myenv/bin/activate
 
 # 📦 Requirements
