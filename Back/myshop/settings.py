@@ -110,7 +110,7 @@ MIDDLEWARE = [
 
 ]
 
-CORS_ALLOWED_ORIGINS = ['https://roee-supermarket.netlify.app',"http://localhost:3000"]
+CORS_ALLOWED_ORIGINS = ['roeesupermarket.netlify.app',"http://localhost:3000"]
 
 ROOT_URLCONF = 'myshop.urls'
 
