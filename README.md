@@ -1,4 +1,4 @@
-# Roee's Supermarket Web Application 🛒
+# Supermarket Web Application 🛒
 
 A supermarket web application that offers a seamless buying experience for customers. Built with a  tech stack including Django, React, Redux, and TypeScript, the application presents an intuitive user interface and efficient backend management.
 
