@@ -27,15 +27,19 @@ python3 -m venv myenv
 source myenv/bin/activate
 
 # 📦 Requirements
+open backend terminal and run:
+
  pip install -r requirements.txt
 
 # Backend Server
-To run the backend server, open a terminal for the backend and run:
+To run the backend server, be in the backend terminal and run:
 
 py manage.py runserver
  
 # Frontend Server
-To run the frontend server, open a terminal for the frontend and run:
+To run the frontend server, open a frontend terminal and run:
+
+npm install
 
 npm start
 
